@@ -10,7 +10,7 @@ def reverse_each_word(st)
 end 
 
 def reverse_each_word(st)
-  #resolve with each 
+  #resolve with collect which == map 
   new_array2 = []
   new_array = st.split
   
