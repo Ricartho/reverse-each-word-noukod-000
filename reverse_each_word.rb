@@ -4,5 +4,5 @@ def reverse_each_word(st)
   new_st.each do |el|
     new_st << el.reverse
   end
-  
+  return new_st
 end 
