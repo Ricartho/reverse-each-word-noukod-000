@@ -6,5 +6,5 @@ def reverse_each_word(st)
   new_array.each do |el|
     new_array2 << el.reverse
   end
-     new_array2
+     new_array2.join
 end 
